@@ -15,15 +15,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={font.className}>
-        <main className="flex min-h-screen flex-col items-center">
-          <div className="w-full max-w-5xl items-center justify-center text-sm lg:flex">
-            <p className="text-2xl text-bold">PokeNext</p>
-          </div>
-          {children}
-        </main>
-      </body>
-    </html>
+    <>
+      <p>Layout Detalhe</p>
+      {children}
+    </>
   );
 }
